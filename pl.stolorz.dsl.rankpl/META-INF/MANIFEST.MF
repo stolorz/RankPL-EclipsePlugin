@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: pl.stolorz.dsl.rankpl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: pl.stolorz.dsl.rankpl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: pl.stolorz.dsl.rankpl.parser.antlr.internal,
+ pl.stolorz.dsl.rankpl.rankPL.util,
+ pl.stolorz.dsl.rankpl.scoping,
+ pl.stolorz.dsl.rankpl.parser.antlr,
+ pl.stolorz.dsl.rankpl,
+ pl.stolorz.dsl.rankpl.rankPL,
+ pl.stolorz.dsl.rankpl.generator,
+ pl.stolorz.dsl.rankpl.services,
+ pl.stolorz.dsl.rankpl.rankPL.impl,
+ pl.stolorz.dsl.rankpl.serializer,
+ pl.stolorz.dsl.rankpl.validation,
+ pl.stolorz.dsl.rankpl.formatting2
+Import-Package: org.apache.log4j
